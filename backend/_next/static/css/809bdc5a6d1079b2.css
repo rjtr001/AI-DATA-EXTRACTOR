@@ -1,0 +1,56 @@
+:root {
+  --document-background: #f4f4f4;
+  --comment-hover: #46485e;
+  --black: #191919;
+  --stone: #424547;
+  --white: #fff;
+  --grey: #6a6b6b;
+  --dark-white: #f0f0f0f2;
+  --light-black: #131416;
+  --active-blue: #191919;
+  --background: #fff;
+  --Green-Main: #a1fffa;
+  --light-blue: #202020;
+  --button-blue: #80f2ff;
+  --blue-hover: #5edfed;
+  --main-font: Open Sans;
+  --document-font: Open Sans;
+  --document-font-weight: 300;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+}
+main {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--grey);
+  border-radius: 15px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #00000000;
+}
+::selection {
+  background-color: var(--light-blue);
+  color: #f6f6f6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grecaptcha-badge {
+  visibility: hidden !important;
+}
